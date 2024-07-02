@@ -16,7 +16,5 @@ while (i < listaDellaSpesa.length) {
     console.log(`Indice: ${i}, Elemento: ${listaDellaSpesa[i]}`);
 }
 
-listaHtml += '</ul>'; // Chiudi la lista non ordinata
-
 // Inserisci la lista della spesa nell'elemento HTML
 listaSpesaElement.innerHTML = listaHtml;
