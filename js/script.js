@@ -12,6 +12,8 @@ let listaHtml = '<ul>'; // Inizia la lista non ordinata
 while (i < listaDellaSpesa.length) {
     listaHtml += `<li>${listaDellaSpesa[i]}</li>`; // Aggiungi ogni elemento come list item
     i++;
+    // Stampa il valore dell'indice e l'elemento corrispondente
+    console.log(`Indice: ${i}, Elemento: ${listaDellaSpesa[i]}`);
 }
 
 listaHtml += '</ul>'; // Chiudi la lista non ordinata
