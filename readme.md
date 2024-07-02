@@ -7,5 +7,4 @@
    - Usare un ciclo `while` per iterare attraverso l'array e costruire la lista:
      - Aggiungere ogni elemento dell'array come un elemento della lista HTML (`<li>`).
      - Incrementare l'indice ad ogni iterazione.
-   - Chiudere la lista non ordinata (`</ul>`).
-   - Inserire il contenuto HTML generato nell'elemento `<div>` recuperato.
+     - Inserire il contenuto HTML generato nell'elemento `<div>` recuperato.
