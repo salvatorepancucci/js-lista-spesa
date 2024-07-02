@@ -13,3 +13,8 @@ while (i < listaDellaSpesa.length) {
     listaHtml += `<li>${listaDellaSpesa[i]}</li>`; // Aggiungi ogni elemento come list item
     i++;
 }
+
+listaHtml += '</ul>'; // Chiudi la lista non ordinata
+
+// Inserisci la lista della spesa nell'elemento HTML
+listaSpesaElement.innerHTML = listaHtml;
